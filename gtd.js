@@ -12,9 +12,9 @@ export const options = {
     { duration: '10s', target: 0 },
   ],
   thresholds: {
-    http_req_duration: ['p(95)<800'],          // 95% de las requests < 800 ms
-    http_req_failed: ['rate<0.01'],           // < 1% de errores
-    response_time: ['avg<600'],               // métrica custom
+    http_req_duration: ['p(95)<800'],          
+    http_req_failed: ['rate<0.01'],          
+    response_time: ['avg<600'],               
   },
 };
 
