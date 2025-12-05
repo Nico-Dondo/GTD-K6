@@ -6,7 +6,6 @@ This project contains a k6 script to measure the performance of the **GTD offers
 
 k6 run gtd.js
 
-text
 
 ## Generate HTML report
 
@@ -16,7 +15,6 @@ set K6_WEB_DASHBOARD=true
 set K6_WEB_DASHBOARD_EXPORT=html-report.html
 k6 run gtd.js
 
-text
 
 After the test finishes, an `html-report.html` file will be generated in the project folder.
 
